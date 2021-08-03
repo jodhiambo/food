@@ -1,0 +1,137 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+}
+
+a {
+  color: green;
+}
+
+h1, h2, h3, h4, h5, h6, .font-primary {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-menu, .nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+  float: left;
+}
+
+.nav-menu a {
+  position: relative;
+  color: black;
+  padding: 40px 20px;
+  transition: 0.3s;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+#star {
+  line-height:32px;
+  font-size:1.25em;
+}
+
+#hero-no-slider {
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+#emaili {
+  border-radius: 25px;
+  padding: 12px 32px;
+  letter-spacing: 2px;
+  width: 40%;
+}
+#newsle {
+  padding: 12px 32px;
+  letter-spacing: 2px;
+  background: green;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+}
+
+#bemail {
+  font-family: sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 5px 30px;
+  border-radius: 50px;
+  background: green;
+  color: #fff;
+}
+
+#hero-no-slider::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background:  #e0e3dc;
+}
+
+#hero-no-slider .btn-get-started {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 12px 20px;
+  border-radius: 50px;
+  background: green;
+  color: #fff;
+}
+
+#menu {
+  background-color:  #e9efea;
+  height: 400px;
+  width: 900px;
+}
+
+#menu-2 {
+  background-color:  #d7f2b6;
+  height: 500px;
+  width: 900px;
+}
+#menu-3 {
+  background-color: #ffd77c;
+  height: 500px;
+  width: 900px;
+}
+#menu-4 {
+  background-color: #c9ecb5;
+  height: 200px;
+  width: 900px;
+}
+
+#f1 {
+   font-size: 12px;
+}
+#f2 {
+   font-size: 16px;
+}
+#pack {
+  color: green;
+}
+
+#bugger {
+  width: 900px;
+  height: 13em;
+  position: relative;
+  right: 15em;
+}
+
+.aVerticalSeparator {
+    border-left: 2px dashed #5f656d;
+    width: 1px;
+    height: 100px;
+}
